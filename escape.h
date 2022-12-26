@@ -1,5 +1,5 @@
-#ifndef SO_LONG_H
-# define SO_LONG_H
+#ifndef ESCAPE_H
+# define ESCAPE_H
 # define BUFFER_SIZE 100
 # include <stdlib.h>
 # include <unistd.h>
@@ -54,11 +54,11 @@ char	*ft_strjoin(char *s1, char *s2);
 char	*next_line(char *buffer);
 char	*update_buffer(char *buffer);
 char	*ft_strchr(const char *s, int c);
-int		isnlchar(char *buffer);
-int		ft_strlen(char *s);
-int		ft_printf(const char *str, ...);
-int		ft_putchar_fd(char c, int fd);
-int		ft_putstr_fd(char *s, int fd);
+int	isnlchar(char *buffer);
+int	ft_strlen(char *s);
+int	ft_printf(const char *str, ...);
+int	ft_putchar_fd(char c, int fd);
+int	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd, int *count);
 
 # define PLAYER "./img/skull.xpm"
