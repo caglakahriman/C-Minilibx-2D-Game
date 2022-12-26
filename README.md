@@ -13,9 +13,10 @@ You can create your own textures and implement them in the 'img' directory. The 
 
 On this project I,
 - handle [minilibx](https://qst0.github.io/ft_libgfx/man_mlx.html#:~:text=MiniLibX%20is%20an%20easy%20way,image%20and%20basic%20events%20management.) library,
-- handle keyhooks,
+- handle potential memory [leaks](https://en.wikipedia.org/wiki/Memory_leak#:~:text=In%20computer%20science%2C%20a%20memory,longer%20needed%20is%20not%20released.),
+- handle key [hooks](https://harm-smits.github.io/42docs/libs/minilibx/hooks.html),
 - handle reading maps,
-- handle rendering a 2D scene,
+- handle rendering a 2D [scene](https://harm-smits.github.io/42docs/libs/minilibx/images.html),
 - handle gameplay elements,
 - handle character movement,
 - handle move count of the player,
