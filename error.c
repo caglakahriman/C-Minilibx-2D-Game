@@ -60,8 +60,6 @@ void	check_map(t_map *map)
 	while (map->lines[0][i] != '\n' && map->lines[0][i] != '\0')
 		i++;
 	line_length = i;
-	if (line_length == line_count)
-		exit_game(map, 0);
 	map->width = line_length;
 	map->height = line_count;
 	check_walls(map);
